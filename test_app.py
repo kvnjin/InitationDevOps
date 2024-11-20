@@ -7,7 +7,7 @@ from app import multiplication
 
 class TestApp(unittest.TestCase):
     """Classe contenant les tests pour la fonction multiplication."""
-    
+
     def test_multiplication_true(self):
         """
         Teste si la multiplication retourne le résultat attendu.
@@ -22,3 +22,4 @@ class TestApp(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+    
